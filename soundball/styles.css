@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
+
+canvas {
+       height:375px;
+       position: relative;
+       width:812px;
+       z-index: -3000;
+
+    }
+    
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: #efefef;
+  color: black;
+  text-align: center;
+  font-size: 1vw;
+  left: 0;
+  
+
+
+}
+
+span .first
+
+{
+
+}
+
+
+
+
+
+
+section{
+
+}
+
+h1 {
+  font-size: 4vw;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  
+  z-index: 1000;
+  
+  
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke:0.5px black;
+  
+}
+
+h2
+{
+  font-size: 10px;
+}
+
+.container {
+  margin: 0px 3em 0px 3em;
+  /*margin-top: -100px*/
+  color: white;
+  position: relative;
+  
+
+
+
+  
+}
+
+.sound {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: white;
+  margin: 30px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+
+
+  
+
+  
+
+  
+}
+
+
+
+img {
+  width: 20%;
+  height: auto;
+}
+
+#stopButton {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: white;
+  width: 128px;
+  height: 30px;
+  margin: 30px;
+  
+  
+  
+  
+ 
+  
+  /* margin: 30px; */
+  
+  
+}
+
+.text
+{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  font-size: 7px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke:0.5px black;
+  margin-right: 0px;
+  
+
+}
+
+.back
+{
+  
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.save
+{
+ 
+
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.save:hover
+{
+    font-size: 14px;
+    -webkit-text-stroke:0.5px red;
+}
+
+.back:hover
+{
+    font-size: 14px;
+    -webkit-text-stroke:0.5px green;
+}
+
+@media (min-width: 812px) {
+  .sound {
+    
+    width: 30px;
+    height: 30px;
+  }
+
+  #sounds 
+  {
+    width: 812px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 10px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  margin-top: -210px;
+  z-index: 10000;
+}
+
+.text
+{
+  font-size: 7px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: -25px;
+
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke:0.5px black;
+
+}
+
+#backicon
+  {
+    width: 12px;
+    height: 12px;
+    margin-right: 90px;
+    margin-left: 30px;
+  }
+
+  #questionmark
+  {
+    width: 12px;
+    height: 12px;
+    margin-left: 90px;
+    cursor: pointer;
+    margin-top: 2px;
+
+  }
+
+  #questionmark:hover+#help
+  {
+    opacity:1;
+    background-color: rgba(247,247,247,.9);
+
+  }
+
+  #help{
+    position: absolute;
+    width: 750px;
+    height: 30px;
+    background-color: white;
+    top: -76px;
+    left: -545px;
+    opacity: 0;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all .3s ease;
+    padding: 8px;
+    padding-top: 13px;
+
+  }
+
+  .helpcontainer
+  {
+    position: relative;
+    font-size: 10px;
+
+  }
+
+
+
+  }
+
+  /*#backicon
+  {
+    width: 12px;
+    height: 12px;
+    margin-right: 100px;
+  }
+
+  #questionmark
+  {
+    width: 12px;
+    height: 12px;
+    margin-left: 70px;
+    cursor: pointer;
+    margin-top: 4px;
+
+  }
+
+  #questionmark:hover+#help
+  {
+    opacity:1;
+
+  }
+
+  #help{
+    position: absolute;
+    width: 250px;
+    background-color: white;
+    top: -170px;
+    left: -90px;
+    opacity: 0;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all .3s ease;
+    padding: 10px;
+
+  }
+
+  .helpcontainer
+  {
+    position: relative;
+    font-size: 12px;
+
+  }
+  */
+
+
+
